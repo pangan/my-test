@@ -1,1 +1,1 @@
-gunicorn -b 0.0.0.0:80 my_app:api
+gunicorn -b 0.0.0.0:$PORT my_app:api
