@@ -2,7 +2,7 @@
 
 FROM grafana/grafana
 
-CMD /run.sh
+ENTRYPOINT ["/run.sh"]
 
 #COPY docker_entrypoint.sh /usr/local/bin/
 
