@@ -1,6 +1,8 @@
-FROM prom/prometheus
+# FROM prom/prometheus
 
-# FROM grafana/grafana
+FROM grafana/grafana
+
+CMD /run.sh
 
 #COPY docker_entrypoint.sh /usr/local/bin/
 
