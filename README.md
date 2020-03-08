@@ -1,2 +1,2 @@
 # my-test
-this is a test for heroku
+This is a test for heroku
