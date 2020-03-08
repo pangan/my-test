@@ -1,1 +1,3 @@
-test
+build:
+  docker:
+    web: Dockerfile
